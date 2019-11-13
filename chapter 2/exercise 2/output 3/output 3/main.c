@@ -11,14 +11,4 @@
  * Created on November 6, 2019, 1:47 PM
  */
 
-#include <stdio.h>
-#include <stdlib.h>
-
-/*
- * 
- */
-int main(int argc, char** argv) {
-
-    return (EXIT_SUCCESS);
-}
-
+#include <stdio.

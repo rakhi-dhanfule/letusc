@@ -26,7 +26,7 @@ int main()
     areac = (22/7)*r*r;
 
     printf("The area of rectangle is %f\n",area);
-    printf("The area of circle is %d\n",areac);
+    printf("The area of circle is %f\n",areac);
     printf("The circumference of circle is %f\n",cc);
 
 }
