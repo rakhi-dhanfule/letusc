@@ -8,21 +8,15 @@
  * File:   main.c
  * Author: ANURADHA
  *
- * Created on November 13, 2019, 1:00 PM
+ * Created on November 13, 2019, 1:25 PM
  */
 
 #include <stdio.h>
 int main()
 {
-    int i=1;
-    while(i<=10);
-    {
-        printf("%d\n",i);
-        i=i+1;
-        
-    }
+    int x=4,y,z;
+    y=--x;
+    z=x--;
+    printf("%d%d%d\n",x,y,z);
     return 0;
 }
-
-
-

@@ -8,21 +8,18 @@
  * File:   main.c
  * Author: ANURADHA
  *
- * Created on November 13, 2019, 1:00 PM
+ * Created on November 13, 2019, 2:14 PM
  */
 
 #include <stdio.h>
 int main()
 {
-    int i=1;
-    while(i<=10);
+    float x=1.1;
+    
+    while(x==1.1)
     {
-        printf("%d\n",i);
-        i=i+1;
-        
+        printf("%f\n",x);
+        x=x-0.1;
     }
     return 0;
 }
-
-
-
