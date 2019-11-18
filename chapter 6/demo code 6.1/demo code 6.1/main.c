@@ -8,18 +8,21 @@
  * File:   main.c
  * Author: ANURADHA
  *
- * Created on November 13, 2019, 2:14 PM
+ * Created on November 18, 2019, 11:57 AM
  */
 
 #include <stdio.h>
 int main()
 {
-    float x=1.1;
-    
-    while(x==1.1)
+    int r,c,sum;
+    for (r=1; r<=3;r++)
     {
-        printf("%f\n",x);
-        x= x-0.1;
+        for(c = 1;c<=2;c++)
+        {
+            sum=r+c;
+            printf("r=%d c=%d sum=%d\n",r,c,sum);
+            
+        }          
     }
-    return 0;
+            return 0;
 }
