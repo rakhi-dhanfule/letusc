@@ -8,25 +8,15 @@
  * File:   main.c
  * Author: ANURADHA
  *
- * Created on November 18, 2019, 12:45 PM
+ * Created on November 18, 2019, 2:03 PM
  */
 
 #include <stdio.h>
 int main()
 {
-    int num,i;
-    printf("enter a number");
-    scanf("%d",&num);
-    
-    i=2;
-    if(num%i==0)
-        
-    {
-        printf("not a prime number\n");
-        
-    }
+    int i;
+    for(i=1;i<=5;printf("%d\n",i));
     i++;
-
-     if(i=num)     
-    printf("prime number\n");
+    return 0;
+    
 }
