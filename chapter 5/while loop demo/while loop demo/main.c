@@ -24,7 +24,7 @@ int main()
                 scanf("%d%d%f",&p,&n,&r);
                 si=p*n*r/100;
                 
-                printf("simple interest=Rs.%\nf",si);
+                printf("simple interest=Rs.%\f",si);
                 
                 count=count+1;
                 
