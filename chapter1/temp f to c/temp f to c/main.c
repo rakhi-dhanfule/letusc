@@ -15,8 +15,10 @@
 int main()
 {
     float Fahrenheit,Celsius;
+    
     printf(" enter the temperature in  Fahrenheit:");
     scanf("%f", &  Fahrenheit);
+    
     /* Fahrenheit to Celsius conversion formula*/
     Celsius=( Fahrenheit -32)*5/9 ;
      printf("%f Fahrenheit = %f Celsius", Fahrenheit,Celsius);
