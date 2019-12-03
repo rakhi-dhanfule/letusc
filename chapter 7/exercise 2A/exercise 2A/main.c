@@ -14,7 +14,7 @@
 #include <stdio.h>
 int main()
 {
-    int c=3;
+    int c=3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ;
     switch(c)
     {
         
@@ -24,7 +24,7 @@ int main()
             
             case3:
             printf("You always lose the gold prize\n");
-            break;
+            break;                      
             
         default:
             printf("Of course provided you win a prize\n");
