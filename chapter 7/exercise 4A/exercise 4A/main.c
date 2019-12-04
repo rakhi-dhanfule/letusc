@@ -19,7 +19,7 @@ int main()
     switch(k=j+1)
     {
         case 3:
-            printf("Trapped\n");
+            printf("Trapped\n ");
             break;
             
         default:
