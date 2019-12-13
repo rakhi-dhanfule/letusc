@@ -17,20 +17,28 @@ int main()
     float a;
     printf("enter the value of a:");
     a=(2/9);
+
    printf("\n%f",a);
   a=(2.0/9);
+
    printf("\n%f",a);
    a=(2/9.0);
+
     printf("\n%f",a);
     a=(2.0/9.0);
+
     printf("\n%f",a);
      a=(9/2);
+
      printf("\n%f",a);
      a=(9.0/2);
+
      printf("\n%f",a);
      a=(9/2.0);
+
      printf("\n%f",a);
     a=(9.0/2.0);
+
     printf("\n%f",a);
     return 0;
 }

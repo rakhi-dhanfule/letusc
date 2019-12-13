@@ -22,4 +22,5 @@ int main()
     /* Fahrenheit to Celsius conversion formula*/
     Celsius=( Fahrenheit -32)*5/9 ;
      printf("%f Fahrenheit = %f Celsius", Fahrenheit,Celsius);
+     return 0;
 }

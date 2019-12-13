@@ -12,7 +12,7 @@
  */
 
 #include<stdio.h>
-main()
+ int main()
 {
  int sum,rem,no;
  printf("enter a five digit number  ");
@@ -30,7 +30,7 @@ main()
  }
  
  printf("Sum is %d",sum);
-
+ return 0;
 }
 
 

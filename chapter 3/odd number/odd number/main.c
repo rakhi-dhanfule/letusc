@@ -11,7 +11,7 @@
  * Created on November 11, 2019, 12:03 PM
  */
 
-
+#include <stdio.>
 int main()
 {
     int number;

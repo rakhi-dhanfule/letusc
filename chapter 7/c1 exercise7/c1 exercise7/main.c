@@ -64,7 +64,7 @@ switch(choice)
     
     case 3:
         printf("Enter an integer:");
-    scanf("%d",&num);
+         scanf("%d",&num);
    
     if(num % 2 == 0)
         printf("%d is even.", num);
@@ -73,7 +73,7 @@ switch(choice)
     break;
     
     case 4:
-        exit(0);
+        exit();
 }
 
 }

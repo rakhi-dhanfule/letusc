@@ -18,10 +18,10 @@ int main()
 
   printf("\n Enter any number to find absolute value");
   scanf("\n %d",&num);
-  if (num<0)
-{
+  if(num<0)
+
   num=(-1)*num;
   printf("\n Absolute value is =%d",num);
-}
+
   return (0);
 }

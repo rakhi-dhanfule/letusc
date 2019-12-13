@@ -15,13 +15,7 @@
  */
 
 #include <stdio.h>
-
-
-
-
-
 int main ()
-
 {
     float basic, gross, da, hra;
 

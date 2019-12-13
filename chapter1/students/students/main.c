@@ -23,7 +23,7 @@ float average, percentage;
 printf("Enter marks for subject one -");
 scanf ("%d",&m1);
 
-printf("Enter marks for subject two - ");
+printf("Enter marks for subject two -");
 scanf("%d",&m2);
 
 printf("Enter marks for subject three - ");
@@ -38,6 +38,7 @@ scanf("%d",&m5);
 total = m1+m2+m3+m4+m5;
 average = total/5;
 percentage = (total*100)/500;
+printf("\n total of five subjects is %d",total);
 printf("\nThe average of five subjects is %f",average);
 printf("\nPercentage=%f%%",percentage);
 
