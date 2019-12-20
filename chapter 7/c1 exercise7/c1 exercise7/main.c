@@ -40,6 +40,10 @@ switch(choice)
   printf("Factorial of %d = %d\n", n, fact);
   break;
   
+  
+  
+  
+  
     case 2:
         printf("Please enter a number: \n");
    scanf("%d", &num);
@@ -62,6 +66,9 @@ switch(choice)
    }
     break;
     
+    
+    
+    
     case 3:
         printf("Enter an integer:");
          scanf("%d",&num);
@@ -71,6 +78,9 @@ switch(choice)
     else
         printf("%d is odd.", num);
     break;
+    
+    
+    
     
     case 4:
         exit();
