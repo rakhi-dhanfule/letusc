@@ -23,7 +23,7 @@ int main()
 void demo()
 {
     int Year;
-    printf("enter the year:");
+    printf("enter the Year:");
     scanf("%d",&Year);
     
     if(Year%4 == 0)
