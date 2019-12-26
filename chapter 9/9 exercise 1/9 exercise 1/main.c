@@ -15,7 +15,8 @@
 #include<stdio.h>
 void calc(int, int, int, int, int, int*, int*, float*);
 
-int main() {
+int main()
+{
     int a, b, c, d, e, sum, avg;
     float sd;
 
@@ -30,7 +31,8 @@ int main() {
     return 0;
 }
 
-void calc(int a, int b, int c, int d, int e, int *sum, int *avg, float *sd) {
+void calc(int a, int b, int c, int d, int e, int *sum, int *avg, float *sd)
+{
     int i;
     *sum = a + b + c + d + e;
     *avg = *sum / 0.5;

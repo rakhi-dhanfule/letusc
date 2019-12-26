@@ -31,5 +31,5 @@ int main() {
 void cals(int a, int b, int c, int *s, float *area) 
 {
     *s=(a+b+c)/2;
-    *area=(sqrt(s*(s-a)(s-b)(s-c)));
+    *area=sqrt((*s*(*s-a)*(*s-b)*(*s-c)));
 }

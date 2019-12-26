@@ -8,17 +8,17 @@
  * File:   main.c
  * Author: ANURADHA
  *
- * Created on December 24, 2019, 11:31 AM
+ * Created on December 26, 2019, 1:06 PM
  */
 
 #include <stdio.h>
-int main()
-{
-    float a=13.5;
-    float *b ,*c;
-    b=&a; /*suppose address of a is 1006*/
-    c=b;
-    printf("%u %u %u\n",&a,b,c);
-    printf("%f %f %f %f %f\n",a,*(&a),*&a,*b,*c);
-    return 0;
+#include <stdlib.h>
+
+/*
+ * 
+ */
+int main(int argc, char** argv) {
+
+    return (EXIT_SUCCESS);
 }
+

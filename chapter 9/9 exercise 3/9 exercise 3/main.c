@@ -14,20 +14,22 @@
 #include <stdio.h>
 void swapv(int, int, int);
 
-int main() {
+int main()
+{
 
     int a = 5, b = 8, c = 10;
 
     swapv(a, b, c);
+    
     printf("a=%d b=%d c=%d\n", a, b, c);
     return 0;
 }
 
-void swapv(int x, int y, int z) {
+void swapv(int x, int y, int z)
+{
     int t;
     t = x;
     x = y;
-    y = z;
     z = t;
-    printf("x=%d y=%d z=%d\n",x, y,z);
+    printf("x=%d y=%d z=%d\n", x, y, z);
 }
