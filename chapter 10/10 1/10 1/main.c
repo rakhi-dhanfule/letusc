@@ -12,20 +12,21 @@
  */
 
 #include <stdio.h>
-int demo(int,int,int,int,int,int*);
+int sum(int);
 int main()
 {
-    int a,b,c,d,e, sum;
+    int f,n;
     printf("enter any number:");
-    scanf("%d %d %d %d %d",&a,&b,&c,&d,&e);
+    scanf("%d",&f);
     
-    demo(a,b,c,d,e,&sum);
-    printf("\n sum %d",sum);
+    n=sum(f);
+    printf("\nsum of 5 number=%d",n);
     return 0;
 }
-int demo(int a,int b,int c,int d,int e,int *sum)
+ int sum(int f)
 {
-    int i;
-    *sum=(a+b+c+d+e);
-    return(i);
+    if(f==0)
+        return 0;
+    else
+        return(f%10+sum(f/10));
 }

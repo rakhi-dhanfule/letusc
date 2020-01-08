@@ -12,13 +12,22 @@
  */
 
 #include <stdio.h>
-#include <stdlib.h>
-
-/*
- * 
- */
-int main(int argc, char** argv) {
-
-    return (EXIT_SUCCESS);
+int addnumber(int i);
+int main()
+{
+    int i;
+    printf("enter the natural number:");
+    scanf("%d",&i);
+    
+    
+    printf("sum = %d", addnumber(i));
+    return 0;
+   
 }
-
+int addnumber(int i)
+{
+    if(i!= 0)
+        return i + addnumber(i-1);
+    else
+        return i ;
+}
